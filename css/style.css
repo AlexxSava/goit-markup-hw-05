@@ -507,14 +507,11 @@
     }
 
     .footer-form {
-        width: 453px;
-        display: flex;    
-        gap: 24px;
-        }
+                width: 453px;
+                display: flex;    
+                gap: 24px;
+    }
     
-    .footer-form-label {
-        }
-
     .footer-form-input {
                 border: 1px solid #fff;
                 border-radius: 4px;
@@ -527,6 +524,7 @@
                 line-height: 2;
                 letter-spacing: 0.04em;
                 color: #fff;
+                padding-left: 16px;
     }
 
     .footer-form-input::placeholder {
@@ -552,12 +550,14 @@
                 color: #fff;
                 font-weight: 500;
                 margin: 0 auto;
+                line-height: 1.5;
+                min-width: 165px;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }       
 
         .footer-form-icon {
                 fill: #fff;
-                margin-left: 10px;
+                margin-left: 16px;
         }
 
         /* ----------------------------------------Drop window */
@@ -584,7 +584,7 @@
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                width: 468px;
+                width: 408px;
                 min-height: 584px;
                 border-radius: 4px;
                 transform: translate(-50%, -50%);
